@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
 
 export default defineConfig({
   server: {
@@ -8,5 +8,6 @@ export default defineConfig({
   preview: {
     host: "0.0.0.0",
     port: 8080,
-  }
+    allowedHosts: ["react-ibm-igggm.ondigitalocean.app"],
+  },
 });
