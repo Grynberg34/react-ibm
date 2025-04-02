@@ -1,0 +1,76 @@
+@use '../styles/colors.scss' as colors;
+@use '../styles/font.scss';
+
+.products {
+
+    .products__group {
+        margin-bottom: 6vh;
+
+        .products__group__name {
+            font-size: 2.5vw;
+            font-weight: 700;
+            color: colors.$green;
+            margin-bottom: 4vh;
+        }
+
+        .products__group__card {
+            border: 0.25vw solid colors.$green;
+            background-color: colors.$lightGreen;
+            border-radius: 1vw;
+            padding: 1vw;
+            margin-bottom: 4vh;
+            height: 55vh;
+
+            .products__group__card__name {
+                font-size: 1.5vw;
+                font-weight: 500;
+                text-align: center;
+                color: colors.$black;
+                margin-bottom: 2vh;
+            }
+
+            .products__group__card__thumbnail {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2vh;
+                width: 100%;
+                max-height: 18vh;
+            }
+
+            .products__group__card__description {
+                font-size: 0.75vw;
+                font-weight: 400;
+                color: colors.$black;
+                margin-bottom: 1vh;
+            }
+
+            .products__group__card__price {
+                font-size: 1.5vw;
+                font-weight: 700;
+                color: colors.$black;
+                margin-bottom: 4vh;
+            }
+
+            .products__group__card__button {
+                padding: 1vw;
+                width: 100%;
+                border: none;
+                border-radius: 1vw;
+                background-color: colors.$green;
+                color: colors.$black;
+                font-size: 1vw;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            .disabled {
+                background-color: colors.$grey;
+                color: colors.$white;
+                user-select: none;
+            }
+
+        }
+
+    }
+}

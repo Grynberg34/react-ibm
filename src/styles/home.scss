@@ -1,0 +1,59 @@
+@use '../styles/colors.scss' as colors;
+@use '../styles/font.scss';
+
+body {
+    margin: 0;
+}
+
+.home {
+    background-image: url("/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    .home__left {
+        margin-top: 30vh;
+
+        .home__left__heading {
+            font-size: 2vw;
+            font-weight: 700;
+            color: colors.$white;
+            margin-bottom: 2vw;
+        }
+
+        .home__left__subtitle {
+            font-size: 1vw;
+            font-weight: 400;
+            color: colors.$white;
+            margin-bottom: 4vw;
+            font-style: italic;
+        }
+
+        .home__left__link {
+            display: block;
+            padding: 1vw;
+            background-color: colors.$green;
+            color: colors.$white;
+            font-size: 1vw;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+
+            &:hover {
+                background-color: colors.$white;
+                color: colors.$green;
+            }
+        }
+    }
+
+    .home__right {
+        margin-top: 34vh;
+
+        .home__right__text {
+            font-size: 1vw;
+            font-weight: 400;
+            color: colors.$white;
+        }
+    }
+}

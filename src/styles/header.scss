@@ -1,0 +1,61 @@
+@use '../styles/colors.scss' as colors;
+@use '../styles/font.scss';
+
+.header {
+    background-color: colors.$green;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    margin-bottom: 8vh;
+
+    .header__link {
+        text-decoration: none;
+
+        .header__link__title {
+            font-size: 1.5vw;
+            font-weight: 700;
+            color: colors.$white;
+            margin-bottom: 2vh;
+        }
+    
+        .header__link__subtitle {
+            font-size: 0.75vw;
+            font-weight: 400;
+            color: colors.$white;
+            font-style: italic;
+        }
+    }
+
+
+    .header__page {
+        font-size: 2vw;
+        font-weight: 700;
+        color: colors.$lightGreen;
+        text-align: center;
+    }
+
+    .header__cart {
+        position: relative;
+        text-decoration: none;
+
+        .header__cart__img {
+            display: block;
+            margin-left: auto;
+            width: 30%;
+        }
+
+        .header__cart__number {
+            position: absolute;
+            bottom: -25%;
+            right: -5%;
+            padding: 0.25vw;
+            padding-left: 0.75vw;
+            padding-right: 0.75vw;
+            border-radius: 1vw;
+            background-color: colors.$orange;
+            color: colors.$white;
+            font-size: 1vw;
+            font-weight: 700;
+        }
+    }
+
+}

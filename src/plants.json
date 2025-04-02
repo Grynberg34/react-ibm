@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Aloe Vera",
+    "thumbnail": "/images/aloe.jpeg",
+    "price": 14.99,
+    "groups": ["Medicinal", "Indoor"],
+    "description": "A hardy succulent known for its medicinal gel, often used to soothe burns and skin irritations."
+  },
+  {
+    "id": 2,
+    "name": "Lavender",
+    "thumbnail": "/images/lavender.jpeg",
+    "price": 12.99,
+    "groups": ["Aromatic", "Medicinal"],
+    "description": "A fragrant herb with purple flowers, valued for its calming aroma and use in essential oils."
+  },
+  {
+    "id": 3,
+    "name": "Snake Plant",
+    "thumbnail": "/images/snake.jpeg",
+    "price": 19.99,
+    "groups": ["Indoor", "Ornamental"],
+    "description": "A low-maintenance indoor plant with tall, striking leaves that help purify the air."
+  },
+  {
+    "id": 4,
+    "name": "Rosemary",
+    "thumbnail": "/images/rosemary.jpeg",
+    "price": 8.99,
+    "groups": ["Aromatic", "Medicinal"],
+    "description": "A woody herb with needle-like leaves, popular for culinary use and its invigorating scent."
+  },
+  {
+    "id": 5,
+    "name": "Fiddle Leaf Fig",
+    "thumbnail": "/images/fiddlefig.jpeg",
+    "price": 29.99,
+    "groups": ["Indoor", "Ornamental"],
+    "description": "A trendy houseplant with large, glossy leaves that add a bold aesthetic to any space."
+  },
+  {
+    "id": 6,
+    "name": "Basil",
+    "thumbnail": "/images/basil.jpg",
+    "price": 5.99,
+    "groups": ["Aromatic", "Medicinal"],
+    "description": "A fragrant culinary herb commonly used in Italian dishes, known for its sweet and peppery flavor."
+  },
+  {
+    "id": 7,
+    "name": "Jade Plant",
+    "thumbnail": "/images/jade.jpeg",
+    "price": 16.99,
+    "groups": ["Indoor", "Ornamental"],
+    "description": "A resilient succulent with thick, glossy leaves, believed to bring good luck and prosperity."
+  },
+  {
+    "id": 8,
+    "name": "Mint",
+    "thumbnail": "/images/mint.jpeg",
+    "price": 7.49,
+    "groups": ["Aromatic", "Medicinal"],
+    "description": "A fast-growing herb with a refreshing scent, often used in teas, cocktails, and desserts."
+  },
+  {
+    "id": 9,
+    "name": "Peace Lily",
+    "thumbnail": "/images/peace.jpeg",
+    "price": 18.49,
+    "groups": ["Indoor", "Ornamental"],
+    "description": "A graceful indoor plant with elegant white blooms, known for improving indoor air quality."
+  },
+  {
+    "id": 10,
+    "name": "Eucalyptus",
+    "thumbnail": "/images/eucalyptus.jpg",
+    "price": 22.99,
+    "groups": ["Aromatic", "Medicinal"],
+    "description": "An aromatic plant with silvery-green leaves, often used in herbal remedies and spa treatments."
+  }
+]

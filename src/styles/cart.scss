@@ -1,0 +1,107 @@
+@use '../styles/colors.scss' as colors;
+@use '../styles/font.scss';
+
+.cart {
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    padding-left: 30vw;
+    padding-right: 30vw;
+
+    .cart__amount {
+        font-size: 1.5vw;
+        font-weight: 500;
+        margin-bottom: 8vh;
+        text-align: center;
+        color: colors.$black;
+        text-align: center;
+    }
+
+    .cart__button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2vh;
+        width: 30%;
+        padding: 1vw;
+        background-color: colors.$green;
+        color: colors.$white;
+        border: none;
+        text-decoration: none;
+        font-size: 1vw;
+        text-align: center;
+
+    }
+
+    .cart__list {
+        padding-left: 10vw;
+        padding-right: 10vw;
+
+        .cart__list__item {
+            padding: 2vw;
+            background-color: colors.$lightGreen;
+            border-radius: 1vw;
+            margin-bottom: 4vh;
+
+            .cart__list__item__name {
+                font-size: 1.5vw;
+                font-weight: 500;
+                text-align: center;
+                color: colors.$black;
+                margin-bottom: 2vh;
+            }
+
+            .cart__list__item__image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2vh;
+                width: 50%;
+                max-height: 18vh;
+            }
+
+            .cart__list__item__price {
+                font-size: 1vw;
+                font-weight: 500;
+                text-align: center;
+                color: colors.$black;
+                margin-bottom: 2vh;
+            }
+
+            .cart__list__item__controls {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 4vh;
+                width: fit-content;
+                border: 0.1vw solid colors.$black;
+
+                .cart__list__item__controls__control {
+                    border: none;
+                    padding: 0.5vw;
+                    background-color: colors.$green;
+                    font-size: 1vw;
+                }
+
+                .cart__list__item__controls__quantity {
+                    margin-left: 1vw;
+                    margin-right: 1vw;
+                    font-size: 1vw;
+                    color: colors.$black;
+                }
+            }
+
+            .cart__list__item__delete {
+                display: block;
+                width: 40%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 4vh;
+                border: none;
+                background-color: colors.$green;
+                padding: 0.25vw;
+                color: colors.$black;
+                font-size: 1vw;
+            }
+        }
+    }
+}
